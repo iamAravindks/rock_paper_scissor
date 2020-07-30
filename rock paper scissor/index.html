@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>let's play</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <section class="game">
+      <div class="score fadeout">
+        <div class="player-score">
+          <h2>player</h2>
+          <p>0</p>
+        </div>
+        <div class="computer-score">
+          <h2>computer</h2>
+          <p>0</p>
+        </div>
+      </div>
+
+      <div class="intro">
+        <div class="intro-text">
+          <h2>have some</h2>
+          <h2 id="type">h</h2>
+        </div>
+
+        <h1>rock paper scissor</h1>
+
+        <button>let's play</button>
+      </div>
+      <div class="match fadeout">
+        <h2 class="winner">
+          choose an option
+        </h2>
+        <div class="hands">
+          <img src="./img/rock.png" alt="" class="player-hands" />
+          <img src="./img/rock.png" alt="" class="computer-hands" />
+        </div>
+        <div class="options">
+          <button class="rock">rock</button>
+          <button class="paper">paper</button>
+          <button class="scissor">scissors</button>
+        </div>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
